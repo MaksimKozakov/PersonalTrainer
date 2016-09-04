@@ -9,15 +9,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tech.webgarage.personaltrainer.Calendar">
 
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timePicker"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="message"
-        android:id="@+id/button2"
-        android:nestedScrollingEnabled="false"
-        android:onClick="onClick"
-        android:layout_alignParentBottom="true"
+        android:text="Отмена"
+        android:id="@+id/btnCancelTime"
+        android:layout_below="@+id/timePicker"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="76dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Готово"
+        android:id="@+id/btnOk"
+        android:layout_alignBottom="@+id/btnCancelTime"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/tvMess"
+        android:layout_below="@+id/btnOk"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

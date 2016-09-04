@@ -39,10 +39,9 @@
             android:label="@string/title_activity_my_goal" />
         <activity
             android:name=".LookParam"
-            android:label="@string/title_activity_look_param"></activity>
+            android:label="@string/title_activity_look_param"/>
 
-        <receiver android:name=".Alarm"></receiver>
-        <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+        <receiver android:name=".Alarm"/>
     </application>
 
 </manifest>
