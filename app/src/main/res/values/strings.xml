@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PersonalTrainer</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="create_course">Создать курс</string>
+    <string name="cont_course">Продолжить курс</string>
+    <string name="my_param">Мои параметры</string>
+    <string name="calend_training">Календарь</string>
+    <string name="base_training">Готовык курсы</string>
+    <string name="my_goal">Мои цели</string>
+    <string name="create_param">Создать параметр</string>
+    <string name="look_param">Посмотреть параметры</string>
+
+    <string name="my_age">Грудь:</string>
+    <string name="my_height">Бицепс:</string>
+    <string name="my_weight">Вес:</string>
+
+    <string name="title_activity_create_course">CreateCourse</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_contin_course">ContinCourse</string>
+    <string name="title_activity_prepared_courses">PreparedCourses</string>
+    <string name="title_activity_my_goal">MyGoal</string>
+    <string name="title_activity_look_param">LookParam</string>
+
+    <string name="enter_age">Введи свой возраст</string>
+    <string name="enter_weight">Введи свой вес</string>
+    <string name="enter_height">Введи свой рост</string>
+
+
+</resources>
